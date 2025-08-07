@@ -1,0 +1,17 @@
+node_modules
+dist/
+.env
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+test-results/
+playwright-report/
+npm-debug.log*
+coverage/
+*.tmp
+*.swp
+cadasa/
+AppData/
+claude_desktop_config.json
