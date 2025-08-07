@@ -1,17 +1,162 @@
-node_modules
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Angular Build Outputs
 dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Angular Cache
+.angular/
+.nx/cache/
+
+# Environment Files
 .env
-*.log
+.env.local
+.env.development
+.env.test
+.env.production
+
+# OS Generated Files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
+
+# Editor/IDE Files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
+*~
+
+# Testing
 test-results/
 playwright-report/
-npm-debug.log*
+playwright/.cache/
 coverage/
-*.tmp
-*.swp
+*.coverage
+.nyc_output/
+tests/screenshots/*.png
+tests/screenshots/*.jpg
+tests/screenshots/*.jpeg
+tests/videos/
+tests/traces/
+
+# Logs
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime Data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# System Files
 cadasa/
 AppData/
 claude_desktop_config.json
+
+# Backup Files
+*.backup
+*.bak
+*.old
+
+# Compressed Files (if accidentally added)
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# Database Files
+*.sqlite
+*.db
+*.sqlite3
+
+# Certificate Files
+*.pem
+*.key
+*.cert
+*.crt
+
+# Local Configuration Files
+.env.local
+.env.*.local
+config/local.json
+
+# Generated Documentation
+docs/generated/
+api-docs/
+
+# Package Manager Lock Files (choose one based on your preference)
+# Keep only one of these uncommented based on your package manager:
+# package-lock.json  # Uncomment if using yarn
+# yarn.lock          # Uncomment if using npm
+# pnpm-lock.yaml     # Uncomment if using yarn or npm
