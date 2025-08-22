@@ -4,15 +4,20 @@ This directory contains a comprehensive Playwright test suite for the Testing Me
 
 ## Test Structure
 
-### Test Files
+### Optimized Test Files
 
-- **`event-list.spec.ts`** - Tests for the main event listing page
-- **`event-detail.spec.ts`** - Tests for individual event detail pages  
-- **`navigation.spec.ts`** - Tests for routing and navigation between pages
-- **`responsive.spec.ts`** - Tests for responsive design across different screen sizes
-- **`accessibility.spec.ts`** - Tests for accessibility compliance and UI consistency
-- **`comprehensive.spec.ts`** - End-to-end tests covering complete user workflows
-- **`test-helpers.ts`** - Helper functions and utilities for tests
+- **`core-functionality.spec.ts`** - Essential end-to-end tests covering complete user workflows
+- **`navigation-flow.spec.ts`** - Critical navigation and routing tests
+- **`responsive-accessibility.spec.ts`** - Key responsive design and accessibility tests
+- **`test-helpers.ts`** - Streamlined helper functions and utilities
+
+### Test Optimization
+This test suite has been optimized to focus on the most valuable and reliable test cases:
+- **Reduced from 10+ files to 3 focused test files**
+- **Removed redundant and duplicate test scenarios**
+- **Kept only the highest-value test cases from each category**
+- **Cleaned up helper functions to include only essential methods**
+- **Improved test reliability and maintainability**
 
 ### Test Coverage
 

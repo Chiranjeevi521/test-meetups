@@ -3,7 +3,10 @@
     "allow": [
       "Bash(npm install)",
       "Bash(npm run build:*)",
-      "Bash(git rm:*)"
+      "Bash(git rm:*)",
+      "Bash(rm:*)",
+      "Bash(del \"C:\\Personal\\Meetup\\test-meetups\\tests\\auth-register.spec.ts\")",
+      "Bash(npx playwright test:*)"
     ],
     "deny": []
   }
